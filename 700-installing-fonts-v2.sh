@@ -33,23 +33,23 @@ echo "####        Fonts from Arch Linux repo have been installed        ####"
 echo "################################################################"
 
 
-echo "################################################################"
-echo "####        Installing fonts for conkies                    ####"
-echo "################################################################"
-
-[ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
-
-
-echo "Copy fonts to .fonts"
-
-cp Personal/settings/fonts/* ~/.fonts/
-
-echo "Building new fonts into the cache files";
-echo "Depending on the number of fonts, this may take a while..."
-fc-cache -fv ~/.fonts
-
-
-
-echo "################################################################"
-echo "#########   Fonts have been copied and loaded   ################"
-echo "################################################################"
+#echo "################################################################"
+#echo "####        Installing fonts for conkies                    ####"
+#echo "################################################################"
+#
+#[ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
+#
+#
+#echo "Copy fonts to .fonts"
+#
+#cp Personal/settings/fonts/* ~/.fonts/
+#
+#echo "Building new fonts into the cache files";
+#echo "Depending on the number of fonts, this may take a while..."
+#fc-cache -fv ~/.fonts
+#
+#
+#
+#echo "################################################################"
+#echo "#########   Fonts have been copied and loaded   ################"
+#echo "################################################################"

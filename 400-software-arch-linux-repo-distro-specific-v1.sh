@@ -32,7 +32,7 @@ echo "Installing category Internet"
 
 echo "Installing category Multimedia"
 
-sh AUR/install-mpd-ncmpcpp-v*.sh
+#sh AUR/install-mpd-ncmpcpp-v*.sh
 
 echo "Installing category Office"
 
@@ -41,8 +41,8 @@ echo "Installing category Other"
 echo "Installing category System"
 
 sudo pacman -S nemo-fileroller --noconfirm --needed
-sudo pacman -S imagemagick --noconfirm --needed
-sudo pacman -S w3m --noconfirm --needed
+#sudo pacman -S imagemagick --noconfirm --needed
+#sudo pacman -S w3m --noconfirm --needed
 sudo pacman -S cinnamon-translations --noconfirm --needed
 
 echo "################################################################"
